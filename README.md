@@ -17,13 +17,6 @@ This is a Flask-based web application that serves as a dashboard for users to in
 - OpenAI API (via LangChain)
 - SQLite database (or configure a different database)
 
-### Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/dashboard-web-app.git
-cd dashboard-web-app
-
 ### Set Up Environment Variables
  Create a .env file in the root directory and add your environment variables:
  SECRET_KEY=your_secret_key
