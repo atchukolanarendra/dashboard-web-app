@@ -51,3 +51,32 @@ Go to the home page (http://127.0.0.1:5000/) and log in with your Google account
 ## Output Images:
 ![WhatsApp Image 2024-11-20 at 4 53 57 PM](https://github.com/user-attachments/assets/bca15799-034f-421a-8361-7be4509fc24f)
 
+![WhatsApp Image 2024-11-20 at 4 53 57 PM (1)](https://github.com/user-attachments/assets/e9544e47-3e9d-4367-b0d2-d05d22268c29)
+
+The backend image:
+![WhatsApp Image 2024-11-20 at 4 53 57 PM (2)](https://github.com/user-attachments/assets/4313d8b5-3256-4874-b3f4-3cadd0c995f7)
+
+### **requirements.txt**
+
+Flask==2.2.3
+Flask-SQLAlchemy==2.5.1
+Flask-Dance==5.1.0
+Flask-Migrate==3.1.0
+requests==2.28.1
+beautifulsoup4==4.11.1
+python-dotenv==0.21.0
+langchain==0.0.162
+openai==0.27.0
+
+#### Explanation of the requirements.txt file:
+Flask - The web framework for Python used to build the web application.
+Flask-SQLAlchemy - For integrating SQLAlchemy with Flask for database management.
+Flask-Dance - Provides OAuth integration, specifically for Google login in this case.
+Flask-Migrate - To handle database migrations.
+requests - To handle HTTP requests for web scraping.
+beautifulsoup4 - To parse HTML content and scrape data from web pages.
+python-dotenv - For managing environment variables in the .env file.
+langchain - The library to interface with OpenAI for generating prompts.
+openai - The official OpenAI Python client, used here for calling the GPT model via LangChain.
+
+
