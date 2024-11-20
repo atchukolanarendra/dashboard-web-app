@@ -58,9 +58,11 @@ The backend image:
 
 ### **requirements.txt**
 
-1.Flask==2.2.3
-2.Flask-SQLAlchemy==2.5.1
-3.Flask-Dance==5.1.0
+ 1.Flask==2.2.3
+ 
+ 2.Flask-SQLAlchemy==2.5.1
+
+ 3.Flask-Dance==5.1.0
 4.Flask-Migrate==3.1.0
 5.requests==2.28.1
 6.beautifulsoup4==4.11.1
