@@ -1,0 +1,11 @@
+Flask==2.2.2
+Flask-SQLAlchemy==2.5.1
+psycopg2==2.9.5
+Flask-Dance==5.0.0
+requests==2.28.2
+beautifulsoup4==4.12.2
+langchain==0.0.224
+python-dotenv==0.21.0
+flask-wtf==1.0.1
+flask-login==0.5.0
+flask-migrate==3.1.0

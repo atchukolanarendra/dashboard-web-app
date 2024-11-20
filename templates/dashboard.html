@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- External CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Styling for the activity card */
+        .activity-item {
+            background-color: #e4e4e4;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Dashboard</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a> <!-- This is the Settings Button -->
+        <a href="#">Logout</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Overview Card -->
+        <div class="card">
+            <h2>Overview</h2>
+            <p>Here is an overview of your application's performance and metrics.</p>
+            <button class="btn" onclick="toggleDetails()">View Details</button>
+            <div id="details" class="hidden">
+                <h3>Detailed Overview</h3>
+                <p>Data about the performance and metrics of your application. Metrics include user growth, response times, and other important KPIs.</p>
+            </div>
+        </div>
+
+        <!-- Activity Card -->
+        <div class="card">
+            <h2>Activity</h2>
+            <p>Your recent activity is summarized here.</p>
+            <div class="activity-item">
+                <strong>Logged in:</strong> 20th Nov 2024, 10:30 AM
+            </div>
+            <div class="activity-item">
+                <strong>Viewed Dashboard:</strong> 20th Nov 2024, 10:45 AM
+            </div>
+            <div class="activity-item">
+                <strong>Checked Settings:</strong> 20th Nov 2024, 10:50 AM
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script>
+        // Function to toggle the visibility of the Overview details
+        function toggleDetails() {
+            const details = document.getElementById('details');
+            if (details.classList.contains('hidden')) {
+                details.classList.remove('hidden');
+            } else {
+                details.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
