@@ -56,3 +56,5 @@ Run the Flask application:
 Go to the home page (http://127.0.0.1:5000/) and log in with your Google account to start interacting with the dashboard.
 
 ## Output Images:
+![WhatsApp Image 2024-11-20 at 4 53 57 PM](https://github.com/user-attachments/assets/bca15799-034f-421a-8361-7be4509fc24f)
+
