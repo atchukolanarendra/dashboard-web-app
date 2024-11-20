@@ -58,15 +58,15 @@ The backend image:
 
 ### **requirements.txt**
 
-Flask==2.2.3
-Flask-SQLAlchemy==2.5.1
-Flask-Dance==5.1.0
-Flask-Migrate==3.1.0
-requests==2.28.1
-beautifulsoup4==4.11.1
-python-dotenv==0.21.0
-langchain==0.0.162
-openai==0.27.0
+1.Flask==2.2.3
+2.Flask-SQLAlchemy==2.5.1
+3.Flask-Dance==5.1.0
+4.Flask-Migrate==3.1.0
+5.requests==2.28.1
+6.beautifulsoup4==4.11.1
+7.python-dotenv==0.21.0
+8.langchain==0.0.162
+9.openai==0.27.0
 
 #### Explanation of the requirements.txt file:
 Flask - The web framework for Python used to build the web application.
